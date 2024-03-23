@@ -8,15 +8,15 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    borderWidth: {
+      3: "3px",
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       colors: {
-        "light-black":"#74787C",
-        "orange":"#FE5D37"
+        "light-black": "#74787C",
+        'orange': "#FE5D37",
+        "light-orange": "#FFF5F3",
+        'yellow':"#ffda48"
       },
     },
   },

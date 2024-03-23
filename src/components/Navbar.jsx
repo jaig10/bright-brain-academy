@@ -21,6 +21,8 @@ import {
 } from "@nextui-org/react";
 
 import { AcmeLogo } from "./AcmeLogo";
+import Image from "next/image";
+import Logo from "../../public/images/logo.jpg";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,8 +54,9 @@ export default function App() {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
+          {/* <AcmeLogo /> */}
+          {/* <Image src={Logo} width={100} /> */}
+          {/* <p className="font-bold text-inherit">ACME</p> */}
         </NavbarBrand>
       </NavbarContent>
 
@@ -135,7 +138,7 @@ export default function App() {
             </DropdownItem>
             <DropdownItem
               className="hover:!bg-[#FE5D37] hover:!text-white"
-              href={`${formatLinkText("NURDERY")}`}
+              href={`${formatLinkText("NURSERY")}`}
               key="home"
             >
               NURSERY

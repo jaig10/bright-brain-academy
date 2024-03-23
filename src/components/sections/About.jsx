@@ -8,7 +8,7 @@ import aboutimg3 from "../../../public/images/aboutSection/about3.jpeg";
 
 function About() {
   return (
-    <div className="lg:grid grid-cols-2">
+    <div className="lg:grid grid-cols-2 my-20">
       <div className="flex items-start justify-center flex-col m-5 mb-10 lg:mb-5 md:ml-20">
         <h1 className="text-3xl">
           Learn more about Our Work and Our Cultural Activities
