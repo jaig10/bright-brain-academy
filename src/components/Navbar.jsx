@@ -54,9 +54,9 @@ export default function App() {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          {/* <AcmeLogo /> */}
+          <AcmeLogo />
           {/* <Image src={Logo} width={100} /> */}
-          {/* <p className="font-bold text-inherit">ACME</p> */}
+          <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -179,7 +179,7 @@ export default function App() {
           <Button
             className="bg-[#FE5D37] text-white rounded-full font-medium pr-8"
             as={Link}
-            href={`#${formatLinkText("CONTACT US")}`}
+            href={`${formatLinkText("CONTACT US")}`}
           >
             CONTACT US
           </Button>
